@@ -1,0 +1,43 @@
+html {
+  font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+}
+body {
+  font-size: 92%;
+}
+#nav {
+  margin: 0;    
+  padding: 0;
+  background: #6F6146;
+  list-style-type: none;
+  width: 180px;
+  float: left; /* Contain floated list items */
+}
+#nav li {
+  margin: 0;
+  padding: 0;
+  float: left; /* This corrects the */
+  width: 100%; /* IE whitespace bug */
+}
+#nav a {    
+  display: block;  /* to increase clickable area as a's 
+      default to inline */
+  color: #FFF;
+  text-decoration: none;
+  padding: 0 15px;
+  line-height: 2.5;
+  border-bottom: 1px solid #FFF;
+}
+#nav #nav_con a {
+  border: none;
+}
+#nav a:hover {  
+  background: #4F4532;
+}
+#body_hom #nav_hom a,
+    #body_map #nav_map a,#body_jou #nav_jou a,
+    #body_his #nav_his a,#body_ref #nav_ref a,
+    #body_con #nav_con a {
+  background: #BEB06F;
+  color: #1A1303;
+  font-weight: bold;
+}

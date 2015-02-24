@@ -1,0 +1,38 @@
+html {
+  font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+}
+body {
+  font-size: 92%;
+}#nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+} 
+#nav li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin: 0 1px 0 0;
+  display: inline;
+  background: #6F6146 url(images/tab_left.gif) no-repeat;
+}
+#nav a {
+  float: left;
+  padding: 0 15px;
+  color: #FFF;
+  text-decoration: none;
+  line-height: 2.5;
+   background: url(images/tab_right.gif) no-repeat top right;
+}
+#nav a:hover {
+  color: #F90;
+}
+#body_hom #nav_hom,#body_map #nav_map,#body_jou #nav_jou,
+    #body_his #nav_his,#body_ref #nav_ref,#body_con #nav_con {
+  background: #BEB06F url(images/tab_left_active.gif) no-repeat;
+}
+#body_hom #nav_hom a,#body_map #nav_map a,#body_jou #nav_jou a,#body_his #nav_his a,#body_ref #nav_ref a,#body_con #nav_con a {
+  background: url(images/tab_right_active.gif) no-repeat top right;
+  color: #1A1303;
+}

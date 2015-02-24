@@ -1,0 +1,89 @@
+#nav {
+  width: 767px;
+  height: 30px;
+  position: relative;
+  background: url(images/menu.jpg);
+  margin: 0;    
+  padding: 0;
+}
+#nav li {
+  float: left;
+}
+#nav li a {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 30px;
+  background: url(images/menu.jpg) no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  font-size: 1%;
+}
+li#nav_hom a {
+  left: 0;
+  width: 112px;
+  background-position: 0 0;
+}
+li#nav_map a {
+  left: 112px;
+  width: 109px;
+  background-position: -112px 0;
+}
+li#nav_jou a {
+  left: 221px;
+  width: 129px;
+  background-position: -221px 0;
+}
+li#nav_his a {
+  left: 350px;
+  width: 131px;
+  background-position: -350px 0;
+}
+li#nav_ref a {
+  left: 481px;
+  width: 153px;
+  background-position: -481px 0;
+}
+li#nav_con  a {
+  left: 634px;
+  width: 133px;
+  background-position: -634px 0;
+}
+li#nav_hom a:hover {
+  background-position: 0 -30px;
+}
+li#nav_map a:hover {
+  background-position: -112px -30px;
+}
+li#nav_jou a:hover {
+  background-position: -221px -30px;
+}
+li#nav_his a:hover {
+  background-position: -350px -30px;
+}
+li#nav_ref a:hover {
+  background-position: -481px -30px;
+}
+li#nav_con a:hover {
+  background-position: -634px -30px;
+}
+#body_hom li#nav_hom  a {
+  background-position: 0 -60px;
+}
+#body_map li#nav_map a {
+  background-position: -112px -60px;
+}
+#body_jou li#nav_jou a {
+  background-position: -221px -60px;
+}
+#body_his li#nav_his a {
+  background-position: -350px -60px;
+}
+#body_ref li#nav_ref a {
+  background-position: -481px -60px;
+}
+#body_con li#nav_con a {
+  background-position: -634px -60px;
+}

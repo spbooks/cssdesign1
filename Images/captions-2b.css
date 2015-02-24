@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font: 62.5%/1.75em Verdana, sans-serif;
+	text-align: center;
+	color: #4d4d4d;
+	}
+#page {
+	margin: 0 auto;
+	width: 75%;
+	text-align: left;
+	}
+#content {
+	padding: 1em;
+	font: 1.25em/1.75em "Times New Roman", serif
+	}
+a:link, a {
+	border-bottom:1px dotted #369;
+	color: #369;
+	text-decoration: none;
+	}
+a:hover {
+	border-bottom:1px solid #369;
+	}
+h1 {
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px double #ccc;
+	font: 3em/1.75em "Times New Roman", serif;
+	font-variant: small-caps;
+	letter-spacing:-.05em;
+	text-align: center;
+	color: #999;
+	}
+h2 {
+	margin: 2em 0 1em 0;
+	padding: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 3px double #eee;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.25em;
+	line-height: 1.75em;
+	}
+p {
+	margin: 0;
+	padding: 0 0 1em 0;
+	}
+cite {
+	display: block;
+	margin-top: 1.25em;
+	font: normal normal 1em/1.75em Verdana, sans-serif;
+	text-align: center;
+	}
+.captioned_photo {
+	position: relative;
+	float: left;
+	display: block;
+	margin: .5em 1.25em .5em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-top-color: #eee;
+	border-right-color: #ddd;
+	border-bottom-color: #bbb;
+	background: url(images/bg.gif) bottom left repeat-x;
+	line-height: 1em;
+	}
+.captioned_photo p {
+	position: absolute;
+	bottom: 2.25em;
+	left: 1.375em;
+	display: block;
+	width: 240px; /* This needs to match the width of the image */
+	margin: 0;
+	padding: 0;
+	background: url(images/caption-black.png) top left repeat-y;
+	font: .75em/1.25em Verdana, sans-serif;
+	letter-spacing:.05em;
+	color: #fff;
+	}
+.captioned_photo p span {
+	display: block;
+	padding: 1em;
+	}
+.captioned_photo img {
+	margin: 0 0 -.0625em 0;
+	padding: 0;
+	}

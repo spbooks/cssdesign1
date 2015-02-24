@@ -1,0 +1,64 @@
+fieldset
+{
+	position: relative;
+	float: left;
+	clear: left;
+	width: 100%;
+	margin: 0 0 -1em 0;
+	padding: 0 0 1em 0;
+	border-style: none;
+	border-top: 1px solid #BFBAB0;
+	background-color: #F2EFE9;
+}
+
+fieldset.alt
+{
+	background-color: #E6E3DD;
+}
+
+legend
+{
+	padding: 0;
+	color: #545351;
+	font-weight: bold;
+}
+
+legend span
+{
+	position: absolute;
+	left: 0.74em;
+	top: 0;
+	margin-top: 0.5em;
+	font-size: 135%;
+}
+
+fieldset ol
+{
+	padding: 3.5em 1em 0 1em;
+	list-style: none;
+	zoom: 1;
+}
+
+fieldset li
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+label
+{
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+}
+
+fieldset.submit
+{
+	float: none;
+	width: auto;
+	padding-top: 1.5em;
+	padding-left: 12em;
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,129 @@
+
+/*******************************************************************************
+********************************************************************************
+**
+* - GENERAL
+*
+* - PAGE CONTAINERS
+*
+* - HEADER
+*
+* - CONTENT
+**
+********************************************************************************
+ ******************************************************************************/
+
+
+
+
+/* GENERAL ------------------------------------------------------------------ */
+
+html
+{
+	height: 100%;
+}
+
+/* Zero default margin & padding around common elements */
+body, dd, dl, dt, form, h1, h2, h3, h4, h5, h6, li, ol, p, ul
+{
+	margin: 0;
+	border: 0 none transparent;
+	padding: 0;
+}
+
+body
+{
+	height: 100%;
+	background-color: #333333;
+	background-image: url(images/bg.gif);
+	background-position: 50% 0;
+	color: #000000;
+	line-height: 1.5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	text-align: center;
+}
+
+a:link
+{
+	color: #003399;
+}
+
+a:visited
+{
+	color: #B266B2;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+
+
+
+/* PAGE CONTAINERS ---------------------------------------------------------- */
+
+#page
+{
+	width: 636px;
+	w\idth: 600px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0 18px 0 18px;
+	background-image: url(images/page.gif);
+	background-repeat: repeat-y;
+	text-align: left;
+}
+
+* html #page
+{
+	height: 100%;
+}
+
+
+
+
+/* HEADER ------------------------------------------------------------------- */
+
+#header
+{
+	height: 90px;
+	background-color: #B2DD32;
+	background-image: url(images/header1.jpg);
+	background-repeat: repeat-x;
+}
+
+h1
+{
+	padding: 0 35px;
+	font-size: 220%;
+	font-weight: normal;
+	line-height: 82px;
+}
+
+
+
+
+/* CONTENT ------------------------------------------------------------------ */
+
+#content
+{
+	padding: 0 35px;
+}
+
+p
+{
+	margin-top: 1.5em;
+}
+
+form
+{
+	margin-top: 1.5em;
+	padding-bottom: 35px;
+}
+
+input.text
+{
+  width: 10.5em;
+}

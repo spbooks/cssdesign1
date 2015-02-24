@@ -1,0 +1,58 @@
+fieldset
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	border: 1px solid #BFBAB0;
+	background-color: #F2EFE9;
+	background-image: url(images/fieldset_gradient.jpg);
+	background-repeat: repeat-x;
+}
+
+legend
+{
+	margin-left: 1em;
+	padding: 0;
+	color: #000000;
+	font-weight: bold;
+}
+
+fieldset ol
+{
+	padding: 1em 1em 0 1em;
+	list-style: none;
+	zoom: 1;
+}
+
+fieldset li
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+label
+{
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+}
+
+label em img
+{
+	position: relative;
+	top: -3px;
+}
+
+fieldset.submit
+{
+	float: none;
+	width: auto;
+	border-style: none;
+	padding-left: 12em;
+	background-color: transparent;
+	background-image: none;
+}

@@ -1,0 +1,29 @@
+/* Zero default margin & padding around common elements */
+body, dd, dl, dt, embed, fieldset, form, h1, h2, h3, h4, h5, h6, img, li, object, ol, p, ul {
+	margin: 0;
+	border: 0 none #FFFFFF;
+	padding: 0;
+}
+
+body {
+	padding: 20px;
+	background-color: #DDEEFF;
+	background-image: url(images/body_bg.jpg);
+	background-repeat: repeat-x;
+	color: #000000;
+	font-size: 75%;
+	line-height: 1.4em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	height: 43px;
+	background-image: url(images/title_snow.gif);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+p {
+	width: 40em;
+	margin-top: 1.5em;
+}

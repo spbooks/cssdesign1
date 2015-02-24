@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Required Fields</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <style type="text/css" media="screen">
+  	@import "main.css";
+  	@import "required-fields.css";
+  </style>
+  <!--[if lte IE 7]>
+  <style type="text/css" media="all">
+  	@import "required-fields-ie.css";
+  </style>
+  <![endif]-->
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<h1>
+				Required Fields
+			</h1>
+		</div> <!-- END #header -->
+		<div id="content">
+			<p>
+				Fill in your details below. We promise that we won't use them to spam you with advertisements ... much.
+			</p>
+			<form action="example.php">
+				<fieldset>
+					<legend>
+						Contact Details
+					</legend>
+					<ol>
+						<li>
+							<label for="name">
+								Name: <em>required</em>
+							</label>
+							<input id="name" name="name" class="text" type="text" />
+						</li>
+						<li>
+							<label for="email">
+								Email address: <em>required</em>
+							</label>
+							<input id="email" name="email" class="text" type="text" />
+						</li>
+						<li>
+							<label for="phone">
+								Telephone:
+							</label>
+							<input id="phone" name="phone" class="text" type="text" />
+						</li>
+					</ol>
+				</fieldset>
+				<fieldset class="alt">
+					<legend>
+						Delivery Address
+					</legend>
+					<ol>
+						<li>
+							<label for="address1">
+								Address 1:
+							</label>
+							<input id="address1" name="address1" class="text" type="text" />
+						</li>
+						<li>
+							<label for="address2">
+								Address 2:
+							</label>
+							<input id="address2" name="address2" class="text" type="text" />
+						</li>
+						<li>
+							<label for="suburb">
+								Suburb/Town:
+							</label>
+							<input id="suburb" name="suburb" class="text" type="text" />
+						</li>
+						<li>
+							<label for="postcode">
+								Postcode: <em>required</em>
+							</label>
+							<input id="postcode" name="postcode" class="text textSmall" type="text" />
+						</li>
+						<li>
+							<label for="country">
+								Country: <em>required</em>
+							</label>
+							<input id="country" name="country" class="text" type="text" />
+						</li>
+					</ol>
+				</fieldset>
+				<fieldset class="submit">
+					<input class="submit" type="submit" value="Begin download" />
+				</fieldset>
+			</form>
+		</div><!-- END #content -->
+	</div> <!-- END #page -->
+</body>
+
+
+
+
+</html>

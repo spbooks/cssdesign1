@@ -1,0 +1,20 @@
+fieldset {
+	margin: 1.5em 0 0 0;
+	padding: 1em 1em 0 1em;
+}
+
+legend {
+	font-weight: bold;
+}
+
+fieldset ol {
+	list-style: none;
+}
+
+fieldset li {
+	padding-bottom: 1em;
+}
+
+fieldset.submit {
+	border-style: none;
+}
